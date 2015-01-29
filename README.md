@@ -2,6 +2,8 @@
 
 The [CSS Counter Styles Level 3](http://www.w3.org/TR/css-counter-styles-3/) module defines only [numeric style for Telugu](http://dev.w3.org/csswg/css-counter-styles/#valdef-counter-style-name-telugu). This project aims to collect all counter styles needed for Telugu.
 
+**NOTE**: As of January 2015, only Firefox supports user-defined `@counter-style` rules. So, these rules do not (yet) work on other browsers.
+
 ## Base counter styles
 
 ### Numeric (`telugu`)
@@ -12,6 +14,8 @@ The [CSS Counter Styles Level 3](http://www.w3.org/TR/css-counter-styles-3/) mod
   symbols: '౦' '౧' '౨' '౩' '౪' '౫' '౬' '౭' '౮' '౯';
 }
 ```
+*NOTE*: This rule is specified in the specification. So, major browsers may include it as built-in.
+
 
 ### Alphabetic (`telugu-alphabetic`)
 
