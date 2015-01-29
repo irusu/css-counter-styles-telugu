@@ -9,7 +9,8 @@ The [CSS Counter Styles Level 3](http://www.w3.org/TR/css-counter-styles-3/) mod
 ```css
 @counter-style telugu {
   system: numeric;
-  symbols: '౦' '౧' '౨' '౩' '౪' '౫' '౬' '౭' '౮' '౯'; 
+  symbols: '౦' '౧' '౨' '౩' '౪' '౫' '౬' '౭' '౮' '౯';
+}
 ```
 
 ### Alphabetic (`telugu-alphabetic`)
