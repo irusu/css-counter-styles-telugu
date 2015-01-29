@@ -1,0 +1,34 @@
+/* base counter styles */
+@counter-style telugu {
+  system: numeric;
+  symbols: '౦' '౧' '౨' '౩' '౪' '౫' '౬' '౭' '౮' '౯'; 
+}
+
+@counter-style telugu-alphabetic {
+  system: alphabetic;
+  symbols: 'అ' 'ఆ' 'ఇ' 'ఈ' 'ఉ' 'ఊ' 'ఎ' 'ఏ' 'ఐ' 'ఒ' 'ఓ' 'ఔ' 'అం' 'అః' 'క' 'ఖ' 'గ' 'ఘ' 'ఙ' 'చ' 'ఛ' 'జ' 'ఝ' 'ఞ' 'ట' 'ఠ' 'డ' 'ఢ' 'ణ' 'త' 'థ' 'ద' 'ధ' 'న' 'ప' 'ఫ' 'బ' 'భ' 'మ' 'య' 'ర' 'ల' 'వ' 'శ' 'ష' 'స' 'హ' 'ళ' 'క్ష' 'ఱ';
+}
+
+
+/* extended counter styles */
+@counter-style telugu-right-paren {
+  system: extends telugu;
+  suffix: ") ";
+}
+
+@counter-style telugu-parens-around {
+  system: extends telugu;
+  prefix: "(";
+  suffix: ") ";
+}
+
+@counter-style telugu-alphabetic-right-paren {
+  system: extends telugu-alphabetic;
+  suffix: ") ";
+}
+
+@counter-style telugu-alphabetic-parens-around {
+  system: extends telugu-alphabetic;
+  prefix: "(";
+  suffix: ") ";
+}
